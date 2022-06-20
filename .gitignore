@@ -1,0 +1,6 @@
+.idea
+results
+*.swp
+target
+/evp-api.iml
+pom.xml.*
