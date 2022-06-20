@@ -4,7 +4,6 @@ package com.midokura.evpapigatling;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.midokura.evpapigatling.SystemPropertiesUtil.getAsDoubleOrElse;
 import static com.midokura.evpapigatling.SystemPropertiesUtil.getAsIntOrElse;
 import static com.midokura.evpapigatling.SystemPropertiesUtil.getAsStringOrElse;
 
