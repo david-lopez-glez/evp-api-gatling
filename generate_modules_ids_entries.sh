@@ -2,7 +2,6 @@
 
 for i in {1..50}
 do
-	printf -v name 'test%02d' "$i"
 	id=$(curl -s http://evp-api.midokura/v2/module \
 	  -H 'X-Authorization: Bearer '"${TB_TOKEN}" \
 	  -H "Content-Type: application/json" \
